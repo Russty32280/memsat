@@ -22,23 +22,23 @@
   <!-- Open Graph data -->
   <meta property="og:title" content="{{page.title}}" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="{{page.url}}" />
+  <meta property="og:url" content="{{page.url}}{{site.baseurl}}" />
   <meta property="og:description" content="{{page.description}}" />
   {% endif %}
   <!-- CSS -->
-  <link rel="stylesheet" href="{{site.url}}/assets/css/bootstrap.css">
-  <link rel="stylesheet" href="{{site.url}}/assets/css/app.css">
-  <link rel="stylesheet" href="{{site.url}}/assets/css/colors.css">
-  <link rel="stylesheet" href="{{site.url}}/assets/css/github.css">
-  <link rel="stylesheet" href="{{site.url}}/assets/css/icomoon.css">
-  <link rel="stylesheet" href="{{site.url}}/assets/css/magnific-popup.css">
-  <link rel="stylesheet" href="{{site.url}}/assets/css/controls.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/app.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/colors.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/github.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/icomoon.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/controls.css">
 
-  <script src="/assets/js/jquery.min.js"></script>
-  <script src="/assets/js/bootstrap.min.js"></script>
-  <script src="/assets/js/jekyll-search.js"></script>
-  <script src="/assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="/assets/js/app.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jekyll-search.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/app.js"></script>
 
   {% if page.title == "Home" %}
   <!-- Add background-image -->
@@ -55,9 +55,9 @@
     document.write("<style>body {background: url("+"/assets/images/"+backgroundImage[random]+") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;color:#fff;background-color:#333;}</style>")
 
     </script>
-  <link rel="stylesheet" href="{{site.url}}/assets/css/bcg.css">
-  <link rel="stylesheet" href="{{site.url}}/assets/css/MetroJs.min.css">
-  <script src="/assets/js/MetroJs.min.js"></script>
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/bcg.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/MetroJs.min.css">
+  <script src="{{site.baseurl}}/assets/js/MetroJs.min.js"></script>
   {% endif %}
 
   {% if page.bloghome == true %}
@@ -69,8 +69,8 @@
   {% endif %}
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{site.url}}/assets/images/favicon-128.png">
-  <link rel="shortcut icon" href="{{site.url}}/assets/images/favicon-16.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{site.url}}{{site.baseurl}}/assets/images/favicon-128.png">
+  <link rel="shortcut icon" href="{{site.url}}{{site.baseurl}}/assets/images/favicon-16.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">

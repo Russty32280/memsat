@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tags - SharePoint
-description: All articles with SharePoint tag assigned
+title: Tags - Test
+description: All articles with Test tag assigned
 theme: red
 ---
     <div class="row">
@@ -29,7 +29,7 @@ theme: red
                 <ul>
                     {% for post in site.posts %}
                         {% for otag in post.tags %}
-                            {% if otag == 'SharePoint' %}
+                            {% if otag == 'Test' %}
                                 <li class="alink"><a href="{{ post.url }}" class="red-link">{{ post.title }}</a></li>
                             {% endif %}
                         {% endfor %}

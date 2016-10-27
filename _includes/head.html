@@ -38,26 +38,19 @@
   <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
   <script src="{{site.baseurl}}/assets/js/jekyll-search.js"></script>
   <script src="{{site.baseurl}}/assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/particles.min.js"></script>
   <script src="{{site.baseurl}}/assets/js/app.js"></script>
 
   {% if page.title == "Home" %}
   <!-- Add background-image -->
     <script>
 
-    var backgroundImage = [];
-
-    backgroundImage[0]='bcg1.jpg';
-    backgroundImage[1]='bcg2.jpg';
-    backgroundImage[2]='bcg3.jpg';
-    backgroundImage[3]='bcg4.jpg';
-
-    var random=Math.floor(Math.random()*4);
-    document.write("<style>body {background: url("+"/assets/images/"+backgroundImage[random]+") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;color:#fff;background-color:#333;}</style>")
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', '{{site.baseurl}}/assets/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+    });	
 
     </script>
-  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/bcg.css">
-  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/MetroJs.min.css">
-  <script src="{{site.baseurl}}/assets/js/MetroJs.min.js"></script>
   {% endif %}
 
   {% if page.bloghome == true %}

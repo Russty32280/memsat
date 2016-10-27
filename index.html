@@ -3,7 +3,7 @@ layout: master
 title: Home
 description: Home Page for Jekyll Metro Theme
 ---
-
+<div id="particles-js"></div>
 <div class="container">
 
 	<header class="row">
@@ -14,50 +14,45 @@ description: Home Page for Jekyll Metro Theme
 	<nav>
 		<div class="row">
  			<div class="col-md-4 col-sm-6 col-xs-12">
-				<a href="about/" title="About Me">
+				<a href="about/" title="About MemSat">
 					<div class="tile purple profile">
-						<h2 class="title">About Me</h2>
-						<p>Hello World, I am {{site.author}}.</p>
+						<h2 class="title">About Memsat</h2>
+						<p>From Payload to Comms</p>
 					</div>
 				</a>
-		    </div>
-			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="resume/" title="Resume" class="tile red">
-					<i class="icon-rems" style="font-size:8em"></i>
+		    	</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="launch/" title="Launch">
+					<div class="tile purple profile">
+						<h2 class="title">Launch</h2>
+						<p>Rocket, Trajectory</p>
+					</div>
 				</a>
-			</div>
+		    	</div>
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="blog/" title="Blog"  class="tile orange">
+				<a href="updates/" title="Blog"  class="tile orange">
 					<i class="icon-blog" style="font-size:8em"></i>
-				</a>
-			</div>
-			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="feed.xml" title="RSS Feed" class="tile orange">
-					<i class="icon-rss" style="font-size:8em"></i>
 				</a>
 			</div>
 		</div>
 
 		<div class="row">
 
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts offset:1 limit:1 %}
-				<a href="{{post.url}}" title="Recent Article">
-					<div class="tile green">
-						<h3 class="title">Recent Article</h3>
-						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+ 			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="updates/" title="Updates">
+					<div class="tile purple profile">
+						<h2 class="title">Updates</h2>
+						<p>Recent Updates</p>
 					</div>
 				</a>
-				{% endfor %}
-			</div>
+		    	</div>
 
 
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				{% for post in site.posts limit:1 %}
-				<a href="{{post.url}}" title="Latest Article">
+				<a href="{{post.url}}" title="Latest Update">
 					<div class="tile red">
-						<h3 class="title">Latest Article</h3>
+						<h3 class="title">Latest Update</h3>
 						<h4 class="title">{{ post.title }}</h4>
 						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
 					</div>

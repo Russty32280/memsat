@@ -13,10 +13,10 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Rowan MemSat'
 tagline:          ''
 description:      'A portal for all things MemSat.'
-url:              'http://localhost:4000'
-baseurl:          ''
-#url:              'http://chrisfrederickson.me'
-#baseurl:          '/memsat'
+#url:              'http://localhost:4000'
+#baseurl:          ''
+url:              'http://chrisfrederickson.me'
+baseurl:          '/memsat'
 
 # Navigation
 navigation:

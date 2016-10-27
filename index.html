@@ -15,7 +15,7 @@ description: Home Page for Jekyll Metro Theme
 		<div class="row">
  			<div class="col-md-4 col-sm-6 col-xs-12">
 				<a href="about/" title="About MemSat">
-					<div class="tile purple profile">
+					<div class="tile blue profile">
 						<h2 class="title">About Memsat</h2>
 						<p>From Payload to Comms</p>
 					</div>
@@ -23,14 +23,14 @@ description: Home Page for Jekyll Metro Theme
 		    	</div>
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				<a href="launch/" title="Launch">
-					<div class="tile purple profile">
+					<div class="tile blue profile">
 						<h2 class="title">Launch</h2>
 						<p>Rocket, Trajectory</p>
 					</div>
 				</a>
 		    	</div>
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="updates/" title="Blog"  class="tile orange">
+				<a href="updates/" title="Blog"  class="tile blue">
 					<i class="icon-blog" style="font-size:8em"></i>
 				</a>
 			</div>
@@ -40,7 +40,7 @@ description: Home Page for Jekyll Metro Theme
 
  			<div class="col-md-4 col-sm-6 col-xs-12">
 				<a href="updates/" title="Updates">
-					<div class="tile purple profile">
+					<div class="tile blue profile">
 						<h2 class="title">Updates</h2>
 						<p>Recent Updates</p>
 					</div>
@@ -51,7 +51,7 @@ description: Home Page for Jekyll Metro Theme
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				{% for post in site.posts limit:1 %}
 				<a href="{{post.url}}" title="Latest Update">
-					<div class="tile red">
+					<div class="tile blue">
 						<h3 class="title">Latest Update</h3>
 						<h4 class="title">{{ post.title }}</h4>
 						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
@@ -61,8 +61,8 @@ description: Home Page for Jekyll Metro Theme
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.stackoverflow}}" title="StackOverflow" class="tile darken" >
-					<i class="icon-skow" style="font-size:8em;color:white"></i>
+				<a href="{{site.facebook}}" class="tile blue">
+					<i class="icon-fcbk" style="font-size:8em"></i>
 				</a>
 			</div>
 
@@ -70,7 +70,7 @@ description: Home Page for Jekyll Metro Theme
 				{% for post in site.posts %}
 					{% if post.featured == true %}
 					<a href="{{post.url}}" title="Featured Article">
-						<div class="tile orange">
+						<div class="tile blue">
 							<h3 class="title">Featured Article</h3>
 							<h4 class="title">{{ post.title }}</h4>
 							<p> {{ post.content | strip_html | truncatewords: 10 }}</p>

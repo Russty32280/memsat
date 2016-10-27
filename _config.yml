@@ -15,8 +15,8 @@ tagline:          ''
 description:      'A portal for all things MemSat.'
 #url:              'http://localhost:4000'
 #baseurl:          ''
-url:              'http://chrisfrederickson.me'
-baseurl:          '/memsat'
+url:              'memsat.space'
+baseurl:          ''
 
 # Navigation
 navigation:

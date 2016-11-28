@@ -5,5 +5,5 @@ description: Information about MemSat
 theme: purple
 ---
 
-# MemSat Mission Definition
-
+# Mission Definition
+To test the resiliance of memristive based non-volatile memories in space conditions. 

@@ -6,4 +6,5 @@ theme: purple
 ---
 
 # Mission Definition
-To test the resiliance of memristive based non-volatile memories in space conditions. We are testing Flash, FRAM, and CBRAM. 
+
+This is a sentance talking about the experimental procedure.

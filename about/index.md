@@ -7,4 +7,6 @@ theme: purple
 
 # Mission Definition
 
-We need to have the ConOps added to this part of the website. 
+Payload: We need your updated version of the mission statement as well as a breif description about what experimentation you are planning on running. This can include plans for auxilary experiments as well.
+
+Sys Int and SMAC: We need to place the ConOps for the overall launch plan on here, along with the grpahic that Abe has put together for us. We should be able to import graphics as we see fit.

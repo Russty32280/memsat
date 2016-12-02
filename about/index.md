@@ -7,4 +7,4 @@ theme: purple
 
 # Mission Definition
 
-We need to have the ConOps added to this part of the website.
+We need to have the ConOps added to this part of the website. 

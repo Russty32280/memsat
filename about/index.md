@@ -7,4 +7,4 @@ theme: purple
 
 # Mission Definition
 
-This is a sentance talking about the experimental procedure.
+We need to have the ConOps added to this part of the website.

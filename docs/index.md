@@ -11,6 +11,7 @@ be able to upload all of the miscellaneous documentation we need.
 *Note: Some URLs may be inaccessible unless you have appropriate permissions to view.*
 
 ## Software Documentation
+
 * [Debugging UART](/docs/uart/)
 * [Motherboard API](/docs/api/)
 
@@ -18,6 +19,7 @@ be able to upload all of the miscellaneous documentation we need.
 There are no active proposals.
 
 ## Guides
+
 ### Software Teams
 * [Using Git](https://docs.google.com/a/students.rowan.edu/document/d/1tuC7MlWZ83l_VBkFQ9hiKSx7mCKuGQ1wbwl-DalNa9o/edit?usp=sharing)
 * [Getting Started with Memsat Dev](https://docs.google.com/a/students.rowan.edu/document/d/14Da2Cp1PZNV_6lmGKbYFSL_Ypj3C9aN1vs76cZzNY7g/edit?usp=sharing)

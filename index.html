@@ -120,9 +120,8 @@ description: Home Page for Memsat
 	</nav>
     
     <script>
-        if (window.location.href.indexOf("kiosk") > -1) {
+        if (navigator.userAgent.indexOf("X11; Linux armv7") > -1) {
             document.getElementById('facebook').style.display = 'none';   
         }
-        alert(navigator.userAgent);
     </script>
 </div>

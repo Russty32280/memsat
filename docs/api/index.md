@@ -1,18 +1,5 @@
 # MemSat API
 ## Power
-### Motherboard Inputs
-
-| Pin  | Type | Description |
-| :--- | :--- | :---        |
-|      |      |             |
-|      |      |             |
-
-### Motherboard Outputs
-
-| Pin  | Type | Description |
-| :--- | :--- | :---        |
-|      |      |             |
-|      |      |             |
 
 From the battery management system, we have a high and low we need from the Pic 
 
@@ -25,10 +12,6 @@ Prefreably Finch would enjoy one analog on the logic rail
 3 analog monitoring rails
 
 Upon future expansion, with MOSFETS, only two extra logic rails would be used.
-
-### Function Signatures
-
-* `void Power_`
 
 ## Payload
 
@@ -61,18 +44,3 @@ Implement
     * `data` - 3-byte String of values from payload, is a `MEM_ADDR` OP code
     
 ## Comms
-### Motherboard Inputs
-
-| Pin  | Type | Description |
-| :--- | :--- | :---        |
-|      |      |             |
-|      |      |             |
-
-### Motherboard Outputs
-
-| Pin  | Type | Description |
-| :--- | :--- | :---        |
-|      |      |             |
-|      |      |             |
-
-### Function Signatures

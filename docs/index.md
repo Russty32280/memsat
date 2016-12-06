@@ -2,8 +2,12 @@
 This project is to serve as the main documentation repository, where users will
 be able to upload all of the miscellaneous documentation we need.
 
+## Documentation
+* [Debugging UART](/docs/uart/)
+* [Motherboard API](/docs/api/)
+
 ## Proposals
-There are no active proposals
+There are no active proposals.
 
 ## Guides
 ### Software Teams

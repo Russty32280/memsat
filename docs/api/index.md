@@ -1,3 +1,10 @@
+---
+layout: page
+title: Motherboard API
+description: Landing page
+theme: green
+---
+
 # MemSat API
 ## Power
 

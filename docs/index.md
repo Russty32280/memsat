@@ -1,3 +1,10 @@
+---
+layout: page
+title: Memsat Docs
+description: Landing page
+theme: green
+---
+
 # Memsat
 This project is to serve as the main documentation repository, where users will
 be able to upload all of the miscellaneous documentation we need.

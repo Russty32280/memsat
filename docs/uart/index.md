@@ -1,3 +1,10 @@
+---
+layout: page
+title: Debugging over UART
+description: Landing page
+theme: green
+---
+
 # Debugging over UART
 Using a [JBtek FTDI cable](https://www.amazon.com/JBtek%C2%AE-WINDOWS-Supported-Raspberry-Programming/dp/B00QT7LQ88/ref=sr_1_1?ie=UTF8&qid=1480442438&sr=8-1&keywords=jbtek+ttl+serial+cable) we can use the following connections:
 

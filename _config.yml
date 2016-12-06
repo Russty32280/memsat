@@ -36,6 +36,14 @@ navigation:
   url : /archive/
 - text: Search
   url: /search/
+  
+navigation_docs:
+- text: Docs Home
+  url: /docs/
+- text: Motherboard API
+  url: /docs/api/
+- text: Tests
+  url: /docs/uart/
 
 
 # Author Details

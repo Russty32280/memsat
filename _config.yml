@@ -22,7 +22,7 @@ icon:             '/assets/images/memsat_logo2_1024.png'
 
 # Navigation
 navigation:
-- text: About MemSat
+- text: About
   url: /about/
 - text: Docs
   url: /docs/

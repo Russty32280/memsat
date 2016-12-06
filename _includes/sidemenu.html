@@ -14,12 +14,11 @@
         <ul class="left-nav">
         {% for link in site.navigation %}
           {% capture pageurl %}{{link.url}}{{"index.html"}}{% endcapture %}
-          {% if page.url == pageurl or (link.text == 'Blog' and page.id) %}
+          {% if page.url == link.url or (link.text == 'Blog' and page.id) %}
             <li class="left-nav-item left-nav-selected">{{link.text}}</a>
           {% else %}
             <li class="left-nav-item">
               <a href="{{link.url}}">{{link.text}}</a>
-              <span style='display:none'>{{page.url}} {{pageurl}} {{link.text}} {{link.url}}</span>
             </li>
           {% endif %}
         {% endfor %}

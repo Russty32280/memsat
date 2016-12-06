@@ -91,3 +91,8 @@
   background-size: cover;
   background-position: 50% 50%;
 }
+
+.ic-back:hover {
+    border-radius: 100px;
+    background-color: rgba(0,0,0,0.3);
+}

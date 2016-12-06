@@ -15,7 +15,7 @@ Using a [JBtek FTDI cable](https://www.amazon.com/JBtek%C2%AE-WINDOWS-Supported-
 ## Reading over UART
 Use the Windows Device Manager to find the `Prolific USB-to-Serial Comm Port` and identify the port number. (In my case, it is COM5).
 
-Use the Python script in the [`Embedded-Library-Tests`](https://gitlab.com/memsat/Embedded-Library-Tests) project to read over serial, using your port number (the default is `COM14`).
+Use the Python script in the [Embedded-Library-Tests](https://gitlab.com/memsat/Embedded-Library-Tests) project to read over serial, using your port number (the default is `COM14`).
 
 `python debug.py {port #} {baud rate}`
 

@@ -22,6 +22,8 @@ baseurl:          ''
 navigation:
 - text: About MemSat
   url: /about/
+- text: Docs
+  url: /docs/
 - text: Launch
   url: /launch/
 - text: Updates

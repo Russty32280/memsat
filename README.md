@@ -6,6 +6,20 @@ Jekyll Metro is a metro inspired theme for [Jekyll](http://jekyllrb.com).
 
 Jekyll Metro is a theme built on top of bootstrap and other freely available libraries. Its aimed to provide a fully furnished Jekyll theme for personal sites with blog. 
 
+# Adding new pages
+* Create a folder and save in it `index.md`
+* Add it to `_config.yml` to place it in the header
+* Otherwise, just link to that page for it to work
+
+Make sure this new Markdown page has a suitable header
+
+    ---
+    layout: page
+    title: Memsat Docs
+    description: Landing page
+    theme: green
+    ---
+
 ## Version 1.0 Development (Beta 2 Released!)
 
 New features include:

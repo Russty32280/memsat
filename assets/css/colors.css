@@ -78,134 +78,140 @@
 }
 
 /* Left Navigation */
+.left-nav-item a:hover{
+    background-color: rgba(0,0,0,0.3);   
+}
+.left-nav-selected{
+    background-color: rgba(0,0,0,0.3);   
+}
 .li8-green .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #99b433;
+/*    background: #99b433;*/
 }
 
 .green .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #00A600;
+/*    background: #00A600;*/
 }
 
 .drk-green .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #1e7145;
+/*    background: #1e7145;*/
 }
 
 .magenta .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #ff0097;
+/*    background: #ff0097;*/
 }
 
 .li8-purple .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #9f00a7;
+/*    background: #9f00a7;*/
 }
 
 .purple .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #5133AB;
+/*    background: #5133AB;*/
 }
 
 .darken .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #1d1d1d;
+/*    background: #1d1d1d;*/
 }
 
 .teal .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #00aba9;
+/*    background: #00aba9;*/
 }
 
 .blue .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #007fff;
+/*    background: #007fff;*/
 }
 
 .drk-blue .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #2b5797;
+/*    background: #2b5797;*/
 }
 
 .red .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #AC193D;
+/*    background: #AC193D;*/
 }
 
 .yellow .left-nav-item a:hover{
     text-decoration: none;
     color: #000;
-    background: #ffc40d;
+/*    background: #ffc40d;*/
 }
 
 .orange .left-nav-item a:hover{
     text-decoration: none;
     color: #fff;
-    background: #da532c;
+/*    background: #da532c;*/
 }
 
 .li8-green .left-nav-selected {
-  background: #56651D;
+/*  background: #56651D;*/
 }
 
 .green .left-nav-selected {
-  background: #007700;
+/*  background: #007700;*/
 }
 
 .drk-green .left-nav-selected {
-    background: #185A37;
+/*    background: #185A37;*/
 }
 
 .magenta .left-nav-selected {
-    background: #CC0079;
+/*    background: #CC0079;*/
 }
 
 .li8-purple .left-nav-selected {
-    background: #7F0086;
+/*    background: #7F0086;*/
 }
 
 .purple .left-nav-selected {
-    background: #412989;
+/*    background: #412989;*/
 }
 
 .darken .left-nav-selected {
-    background: #111111;
+/*    background: #111111;*/
 }
 
 .teal .left-nav-selected {
-    background: #008987;
+/*    background: #008987;*/
 }
 
 .blue .left-nav-selected {
-    background: #0062C4;
+/*    background: #0062C4;*/
 }
 
 .drk-blue .left-nav-selected {
-    background: #224679;
+/*    background: #224679;*/
 }
 
 .red .left-nav-selected {
-    background: #8B162B;
+/*    background: #8B162B;*/
 }
 
 .yellow .left-nav-selected {
-    background: #CC9D0A;
+/*    background: #CC9D0A;*/
 }
 
 .orange .left-nav-selected {
-    background: #C53E10;
+/*    background: #C53E10;*/
 }
 
 

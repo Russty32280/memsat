@@ -19,6 +19,7 @@
           {% else %}
             <li class="left-nav-item">
               <a href="{{link.url}}">{{link.text}}</a>
+              <span style='display:none'>{{page.url}} {{pageurl}} {{link.text}} {{link.url}}</span>
             </li>
           {% endif %}
         {% endfor %}

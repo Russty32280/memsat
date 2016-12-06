@@ -119,7 +119,9 @@ description: Home Page for Memsat
 		</div>
 	</nav>
     
-    <style>
-    
-    </style>
+    <script>
+        if (window.location.indexOf("kiosk") > -1) {
+            document.getElementById('facebook').style.display = 'none';   
+        }
+    </script>
 </div>

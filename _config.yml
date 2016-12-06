@@ -18,6 +18,7 @@ description:      'A portal for all things MemSat.'
 #baseurl:          ''
 url:              'http://memsat.space'
 baseurl:          ''
+icon:             '/assets/images/memsat_logo2_1024.png'
 
 # Navigation
 navigation:

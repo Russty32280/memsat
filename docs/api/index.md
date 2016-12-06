@@ -5,7 +5,6 @@ description: Landing page
 theme: green
 ---
 
-# MemSat API
 ## Power
 
 From the battery management system, we have a high and low we need from the Pic 
@@ -51,3 +50,4 @@ Implement
     * `data` - 3-byte String of values from payload, is a `MEM_ADDR` OP code
     
 ## Comms
+Currently there are no defined API interfaces with the Comms subsystem.

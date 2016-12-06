@@ -5,11 +5,12 @@ description: Landing page
 theme: green
 ---
 
-# Memsat
 This project is to serve as the main documentation repository, where users will
 be able to upload all of the miscellaneous documentation we need.
 
-## Documentation
+*Note: Some URLs may be inaccessible unless you have appropriate permissions to view.*
+
+## Software Documentation
 * [Debugging UART](/docs/uart/)
 * [Motherboard API](/docs/api/)
 

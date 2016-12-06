@@ -73,7 +73,7 @@ description: Home Page for Memsat
 					<a href="{{post.url}}" title="Featured Article">
 						<div class="tile blue">
 							<h3 class="title">Featured Article</h3>
-							<h4 class="title" id='a'>{{ post.title }}</h4>
+							<h4 class="title">{{ post.title }}</h4>
 							<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
 						</div>
 					</a>
@@ -123,6 +123,6 @@ description: Home Page for Memsat
         if (window.location.href.indexOf("kiosk") > -1) {
             document.getElementById('facebook').style.display = 'none';   
         }
-        document.getElementById('a').innerHTML = navigator.userAgent;
+        alert(navigator.userAgent);
     </script>
 </div>

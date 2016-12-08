@@ -6,5 +6,5 @@ theme: green
 ---
 
 <script>
-window.location.href = "gitlab.com/groups/memsat"
+window.location.href = "http://gitlab.com/groups/memsat"
 </script>

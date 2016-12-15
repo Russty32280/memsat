@@ -40,10 +40,18 @@ navigation:
 navigation_docs:
 - text: Docs Home
   url: /docs/
-- text: Motherboard API
+- text: Motherboard
   url: /docs/api/
-- text: Tests
+- text: Doc Generator
+  url: /docs/pyrmd/
+- text: UART
   url: /docs/uart/
+- text: Tests
+  url: /docs/test/
+- text: -API Reference-
+  url: #
+- text: Motherboard
+  url: /docs/motherboard
 
 
 # Author Details

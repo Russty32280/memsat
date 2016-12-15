@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Motherboard API
-description: Landing page
+description: What is the motherboard?
 theme: green
 ---
+
+## About the Motherboard
+Learn more about the [Motherboard](/motherboard/) and the C&DH subsystem.
 
 ## Power
 
